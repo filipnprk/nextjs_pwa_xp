@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import Head from 'next/head';
 import { Gtm, GTM_ID } from '../components/Gtm';
+import { useEffect } from 'react';
 
 function App({ Component, pageProps }){
 
